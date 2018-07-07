@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <parameter name="appURL" value="http://demosite.center/wordpress/wp-login.php"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="password" value="admin"/>
+    <test name="sample test">
+        <classes>
+            <class name="testsuite.LoginTest"/>
+        </classes>
+    </test>
+</suite>
