@@ -6,7 +6,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageobject.LoginPage;
 import utilities.BaseSetup;
-
+/**
+ * Test to login on word press website
+ * */
 public class LoginTest extends BaseSetup {
     private WebDriver driver;
 
